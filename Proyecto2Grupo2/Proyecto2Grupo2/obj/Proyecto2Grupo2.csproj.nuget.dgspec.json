@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fernando\\source\\repos\\Proyecto2Grupo2\\Proyecto2Grupo2\\Proyecto2Grupo2.csproj": {}
+    "C:\\Users\\Fernando\\source\\repos\\ElectronicaG2\\Proyecto2Grupo2\\Proyecto2Grupo2\\Proyecto2Grupo2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fernando\\source\\repos\\Proyecto2Grupo2\\Proyecto2Grupo2\\Proyecto2Grupo2.csproj": {
+    "C:\\Users\\Fernando\\source\\repos\\ElectronicaG2\\Proyecto2Grupo2\\Proyecto2Grupo2\\Proyecto2Grupo2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fernando\\source\\repos\\Proyecto2Grupo2\\Proyecto2Grupo2\\Proyecto2Grupo2.csproj",
+        "projectUniqueName": "C:\\Users\\Fernando\\source\\repos\\ElectronicaG2\\Proyecto2Grupo2\\Proyecto2Grupo2\\Proyecto2Grupo2.csproj",
         "projectName": "Proyecto2Grupo2",
-        "projectPath": "C:\\Users\\Fernando\\source\\repos\\Proyecto2Grupo2\\Proyecto2Grupo2\\Proyecto2Grupo2.csproj",
+        "projectPath": "C:\\Users\\Fernando\\source\\repos\\ElectronicaG2\\Proyecto2Grupo2\\Proyecto2Grupo2\\Proyecto2Grupo2.csproj",
         "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fernando\\source\\repos\\Proyecto2Grupo2\\Proyecto2Grupo2\\obj\\",
+        "outputPath": "C:\\Users\\Fernando\\source\\repos\\ElectronicaG2\\Proyecto2Grupo2\\Proyecto2Grupo2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
